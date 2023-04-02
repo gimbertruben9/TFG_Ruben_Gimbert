@@ -346,6 +346,8 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/IK_Scripts/FabrikSolver.cs"
 "Assets/IK_Scripts/IK.cs"
+"Assets/IK_Scripts/IK_2.cs"
+"Assets/IK_Scripts/Rotations.cs"
 -langversion:9.0
 
 /deterministic
