@@ -344,9 +344,11 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/IK_Scripts/animation_target.cs"
 "Assets/IK_Scripts/FabrikSolver.cs"
 "Assets/IK_Scripts/IK.cs"
 "Assets/IK_Scripts/IK_2.cs"
+"Assets/IK_Scripts/IK_3D.cs"
 "Assets/IK_Scripts/Rotations.cs"
 -langversion:9.0
 

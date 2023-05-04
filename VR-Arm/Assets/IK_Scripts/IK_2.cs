@@ -58,13 +58,11 @@ public class IK_2 : MonoBehaviour
                 float cos_q2 = ((elbowBoneLength * elbowBoneLength) + (shoulderBoneLength * shoulderBoneLength) - (r * r)) / (2 * elbowBoneLength * shoulderBoneLength);
                 float q2 = Mathf.Acos(cos_q2) * Mathf.Rad2Deg;
 
-                // Angle from shoulder and target
                 Vector2 diff = new Vector2(target.position.x, target.position.y) - new Vector2(shoulder.position.x, shoulder.position.y);
                 float atan = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
 
-                // So they work in Unity reference frame
-                float jointAngle1 = atan - q1;    // Angle A
-                float jointAngle2 = q2 - 180;    // Angle B
+                float jointAngle1 = atan - q1;
+                float jointAngle2 = q2 - 180;
 
                 shoulder.localRotation = Quaternion.Euler(-jointAngle1, 90f, 0f);
                 elbow.localRotation = Quaternion.Euler(jointAngle2, 0f, 0f);

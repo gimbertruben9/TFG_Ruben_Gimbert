@@ -66,7 +66,7 @@ public class IK : MonoBehaviour
                 float q2 = Mathf.Acos((r*r - shoulderBoneLength*shoulderBoneLength - elbowBoneLength*elbowBoneLength) / (2 * shoulderBoneLength * elbowBoneLength));
                 float q1 = Mathf.Atan2(targetPos.y, targetPos.x) - Mathf.Atan((elbowBoneLength * Mathf.Sin(q2)) / (shoulderBoneLength + elbowBoneLength * Mathf.Cos(q2)));
                 
-                shoulder.localRotation = Quaternion.Euler(q1 * Mathf.Rad2Deg, 90f, 0f);
+                shoulder.localRotation = Quaternion.Euler(-q1 * Mathf.Rad2Deg, 90f, 0f);
                 elbow.localRotation = Quaternion.Euler(-q2 * Mathf.Rad2Deg, 0f, 0f);
                 //elbow.LookAt(target);
             }
