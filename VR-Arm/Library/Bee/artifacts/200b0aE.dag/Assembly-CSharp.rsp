@@ -104,6 +104,7 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
 -define:ENABLE_CUSTOM_RENDER_TEXTURE
 -define:ENABLE_DIRECTOR
 -define:ENABLE_LOCALIZATION
@@ -344,12 +345,8 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/IK_Scripts/animation_target.cs"
-"Assets/IK_Scripts/FabrikSolver.cs"
-"Assets/IK_Scripts/IK.cs"
-"Assets/IK_Scripts/IK_2.cs"
-"Assets/IK_Scripts/IK_3D.cs"
-"Assets/IK_Scripts/Rotations.cs"
+"Assets/Scripts/animation_target.cs"
+"Assets/Scripts/IK_2.cs"
 -langversion:9.0
 
 /deterministic

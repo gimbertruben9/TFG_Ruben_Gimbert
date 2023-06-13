@@ -14,13 +14,11 @@ public class animation_target : MonoBehaviour
     public float duration = 2.0f;
     private int currentTargetIndex = 0;
     private float startTime;
-
     // Start is called before the first frame update
     void Start()
     {
         startTime = Time.time;  
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -33,7 +31,5 @@ public class animation_target : MonoBehaviour
             currentTargetIndex = (currentTargetIndex + 1) % targets.Length;
             startTime = Time.time;
         }
-
-        // Transform.Translate(vector_moviment * velocitat * Time.deltaTime)
     }
 }
