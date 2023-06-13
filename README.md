@@ -1,4 +1,4 @@
-# TFG Ruben Gimbert Arm
+# TFG Ruben Gimbert - Arm
 
 En aquest projecte es troba l'escena 3D en la qual s'ha desenvolupat el braç amb el moviment IK en 2D. La versió de l'editor de Unity utilitzada és la 2021.3.18f1. Si intentem obrir el projecte des de Unity, ens hauria de sortir l'opció de descarregar aquesta versió. Sinó, es pot descarregar una versió igual o superior des de la pestanya Installs de Unity i obrir el projecte.  
 
